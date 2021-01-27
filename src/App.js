@@ -7,6 +7,7 @@ import Product from './components/Product/Product';
 function App() {
   return (
     <div>
+      <h2>hello</h2>
         <Header></Header>
         <Shop></Shop>
         
