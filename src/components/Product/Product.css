@@ -17,4 +17,5 @@
     height: 25px;
     background-color: goldenrod;
     border: 1px solid darkgray;
+    cursor: pointer;
 }
