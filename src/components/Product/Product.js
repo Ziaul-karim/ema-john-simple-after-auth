@@ -5,6 +5,7 @@ import './Product.css'
 import { Link } from 'react-router-dom';
 
 const Product = (props) => {
+    console.log(props.product)
     const{img, name, seller, price, stock, key} = props.product;
     const buttonIcon = <FontAwesomeIcon icon={faShoppingCart} />
     return (
